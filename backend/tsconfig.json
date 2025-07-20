@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"moduleResolution": "Bundler",
+		"strict": true,
+		"skipLibCheck": true,
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"types": ["node"],
+		"jsx": "preserve",
+		"paths": {
+			"@/*": ["./*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
